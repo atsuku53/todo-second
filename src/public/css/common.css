@@ -1,11 +1,13 @@
 .header {
   background: #000;
+  display:flex;
 }
 
 .header__inner {
-  margin: 0 auto;
+  margin: 0 100px;
   padding: 20px 15px;
   max-width: 1230px;
+  /* border: 1px solid red; */
 }
 
 .header__logo {
@@ -13,4 +15,19 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 24px;
+  /* border: 1px solid red; */
+}
+
+.header__category {
+  margin: 0px 100px 0px auto;
+  padding: 20px 15px;
+  max-width: 1230px;
+  /* border: 1px solid red; */
+}
+
+.header__category-item {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  /* border: 1px solid red; */
 }

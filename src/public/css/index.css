@@ -20,18 +20,30 @@
   margin: 0 auto;
   padding: 60px 15px;
   max-width: 1230px;
+  /* border: 1px solid red; */
 }
 
-.create-form {
+.create-form__title {
+  margin: 0 auto 20px;
+  width: 70%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  /* border: 1px solid red; */
+}
+
+.create-form__content {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   width: 70%;
   text-align: center;
+  /* border: 1px solid red; */
 }
 
 .create-form__item {
-  width: 70%;
+  width: 50%;
+  /* border: 1px solid red; */
 }
 
 .create-form__item-input {
@@ -42,11 +54,85 @@
   border-radius: 3px;
 }
 
+.create-form__category {
+  width: 25%;
+  /* border: 1px solid red; */
+}
+
+.create-form__category-select {
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
 .create-form__button {
   width: 20%;
+  /* border: 1px solid red; */
 }
 
 .create-form__button-submit {
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-form__title {
+  margin: 20px auto 20px;
+  width: 70%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  /* border: 1px solid red; */
+}
+
+.search-form__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.search-form__item {
+  width: 50%;
+  /* border: 1px solid red; */
+}
+
+.search-form__item-input {
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.search-form__category {
+  width: 25%;
+  /* border: 1px solid red; */
+}
+
+.search-form__category-select {
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.search-form__button {
+  width: 20%;
+  /* border: 1px solid red; */
+}
+
+.search-form__button-submit {
   padding: 10px;
   width: 100%;
   height: 40px;
@@ -61,14 +147,17 @@
   margin: 30px auto;
   width: 70%;
   text-align: left;
+  /* border: 1px solid red; */
 }
 
 .todo-table__inner {
   width: 100%;
+  /* border: 1px solid red; */
 }
 
 .todo-table__row {
   border-bottom: 1px solid #ddd;
+  /* border: 1px solid red; */
 }
 
 .todo-table__header {
@@ -78,9 +167,13 @@
   font-weight: bold;
 }
 
-.todo-table__item:first-of-type {
+.todo-table__item {
   padding: 12px;
-  width: 90%;
+  /* width: 90%; */
+}
+
+.todo-table__item-button {
+  width: 5%;
 }
 
 .update-form {
@@ -90,11 +183,22 @@
 }
 
 .update-form__item {
-  width: 80%;
+  width: 100%;
   line-height: 50%;
 }
 
 .update-form__item-input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.update-form__category {
+  width: 100%;
+  line-height: 50%;
+}
+
+.update-form__category-select {
   width: 100%;
   outline: none;
   border: none;
